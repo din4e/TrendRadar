@@ -9,7 +9,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/sansan0/TrendRadar?style=flat-square&logo=github&color=yellow)](https://github.com/sansan0/TrendRadar/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/sansan0/TrendRadar?style=flat-square&logo=github&color=blue)](https://github.com/sansan0/TrendRadar/network/members)
 [![License](https://img.shields.io/badge/license-GPL--3.0-blue.svg?style=flat-square)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v2.3.1-green.svg?style=flat-square)](https://github.com/sansan0/TrendRadar)
+[![Version](https://img.shields.io/badge/version-v2.3.2-green.svg?style=flat-square)](https://github.com/sansan0/TrendRadar)
 
 [![企业微信通知](https://img.shields.io/badge/企业微信-通知-00D4AA?style=flat-square)](https://work.weixin.qq.com/)
 [![Telegram通知](https://img.shields.io/badge/Telegram-通知-00D4AA?style=flat-square)](https://telegram.org/)
@@ -23,21 +23,20 @@
 </div>
 
 
-> 本项目以轻量，易部署为目标。
-> 
-> 遇到问题可选择以下 2 种方式获得帮助，[点此跳转到两者的区别](#问题答疑与1元点赞)
+> 本项目以轻量，易部署为目标
 
-- **详细问题** → 选择 [GitHub Issues](https://github.com/sansan0/TrendRadar/issues)，准备好截图和日志等。 
-- **快速咨询** → 选择【硅基茶水间】公众号文章留言或私信，尽量说清核心问题。
+- **详细问题** → 选择 [GitHub Issues](https://github.com/sansan0/TrendRadar/issues)，准备好截图和日志等 
+- **快速咨询** → 选择[硅基茶水间](#问题答疑与1元点赞)公众号文章留言或私信，尽量说清核心问题
 
 <details>
 <summary>👉 点击查看<strong>致谢名单</strong> (当前 <strong>🔥24🔥</strong> 位)</summary>
+<br>
 
-### 感谢
+> 开源路上，感谢有你
 
-- **fork 并为项目点 star** 的观众们，你们的认可是项目继续前进的动力
-- **关注公众号并积极互动** 的读者们，你们的留言和点赞让内容更有温度
-- **给予资金点赞支持** 的朋友们，你们的慷慨让项目得以持续发展
+- **fork 并为项目点 star** 的观众们，你们的每一个 star 都是对开源精神最好的支持
+- **关注公众号并积极互动** 的读者们，你们的留言和点赞让内容更有温度，问题反馈让项目更加完善
+- **给予资金点赞支持** 的朋友们，你们的慷慨已化身为键盘旁的零食饮料，陪伴着项目的每一次迭代
 
 ### 数据支持
 
@@ -45,7 +44,7 @@
 
 ### 推广助力
 
-> 感谢以下平台和个人的推荐(按时间排列)，以及各微信群，qq群等给到这个项目帮助的人
+> 感谢以下平台和个人的推荐(按时间排列)
 
 - [小众软件](https://mp.weixin.qq.com/s/fvutkJ_NPUelSW9OGK39aA) - 开源软件推荐平台
 - [LinuxDo 社区](https://linux.do/) - 技术爱好者的聚集地
@@ -99,12 +98,11 @@
 - 今日头条
 - 微博
 
-默认监控 11 个主流平台，如想额外增加其它平台，可自行增加
+默认监控 11 个主流平台，也可自行增加额外的平台
 
 <details>
 <summary><strong>👉 自定义监控平台</strong></summary>
-
-### 🔧 自定义监控平台
+<br>
 
 本项目的资讯数据来源于 [newsnow](https://github.com/ourongxing/newsnow) ，你可以点击[网站](https://newsnow.busiyi.world/)，点击[更多]，查看是否有你想要的平台。 
 
@@ -128,9 +126,9 @@ platforms:
 
 | 模式 | 适用人群 | 推送时机 | 显示内容 | 适用场景 |
 |------|----------|----------|----------|----------|
-| **当日汇总模式**<br/>`daily` | 📋 企业管理者/普通用户 | 按时推送 | 当日所有匹配新闻<br/>+ 新增新闻区域 | 日报总结<br/>全面了解当日热点趋势 |
-| **当前榜单模式**<br/>`current` | 📰 自媒体人/内容创作者 | 按时推送 | 当前榜单匹配新闻<br/>+ 新增新闻区域 | 实时热点追踪<br/>了解当前最火的内容 |
-| **增量监控模式**<br/>`incremental` | 📈 投资者/交易员 | 有新增才推送 | 新出现的匹配频率词新闻 | 避免重复信息干扰<br/>高频监控场景 |
+| **当日汇总**<br/>`daily` | 📋 企业管理者/普通用户 | 按时推送 | 当日所有匹配新闻<br/>+ 新增新闻区域 | 日报总结<br/>全面了解当日热点趋势 |
+| **当前榜单**<br/>`current` | 📰 自媒体人/内容创作者 | 按时推送 | 当前榜单匹配新闻<br/>+ 新增新闻区域 | 实时热点追踪<br/>了解当前最火的内容 |
+| **增量监控**<br/>`incremental` | 📈 投资者/交易员 | 有新增才推送 | 新出现的匹配频率词新闻 | 避免重复信息干扰<br/>高频监控场景 |
 
 **静默推送模式**：
 
@@ -306,93 +304,22 @@ OPPO
 
 </details>
 
-### **个性化热点算法**
 
-不再被各个平台的算法牵着走，TrendRadar 会重新整理全网热搜：
+### **热点趋势分析**
 
-- **看重排名高的新闻**（占60%）：各平台前几名的新闻优先显示
-- **关注持续出现的话题**（占30%）：反复出现的新闻更重要  
-- **考虑排名质量**（占10%）：不仅多次出现，还经常排在前列
+实时追踪新闻热度变化，让你不仅知道"什么在热搜"，更了解"热点如何演变"
 
-**实际效果**：把分散在各个平台的热搜合并起来，按照你关心的热度重新排序
+- **时间轴追踪**：记录每条新闻从首次出现到最后出现的完整时间跨度
+- **热度变化**：统计新闻在不同时间段的排名变化和出现频次  
+- **新增检测**：实时识别新出现的热点话题，用🆕标记第一时间提醒
+- **持续性分析**：区分一次性热点话题和持续发酵的深度新闻
+- **跨平台对比**：同一新闻在不同平台的排名表现，看出媒体关注度差异
 
-> 这三个比例可以选择适合自己的场景进行调整
-
-<details>
-<summary><strong>👉 热点权重调整</strong></summary>
-<br>
-
-当前默认的配置是平衡性配置
-
-### 两个核心场景
-
-**追实时热点型**：
-```yaml
-weight:
-  rank_weight: 0.8    # 主要看排名
-  frequency_weight: 0.1  # 不太在乎持续性
-  hotness_weight: 0.1
-```
-**适用人群**：自媒体博主、营销人员、想快速了解当下最火话题的用户
-
-**追深度话题型**：
-```yaml
-weight:
-  rank_weight: 0.4    # 适度看排名
-  frequency_weight: 0.5  # 重视当天内的持续热度
-  hotness_weight: 0.1
-```
-**适用人群**：投资者、研究人员、新闻工作者、需要深度分析趋势的用户
-
-### 调整的方法
-1. **三个数字加起来必须等于 1.0**
-2. **哪个重要就调大哪个**：在乎排名就调大 rank_weight，在乎持续性就调大 frequency_weight
-3. **建议每次只调 0.1-0.2**，观察效果
-
-核心思路：追求速度和时效性的用户提高排名权重，追求深度和稳定性的用户提高频次权重。
-
-</details>
-
-### **多渠道实时推送**
-
-支持**企业微信**(+ 微信推送方案)、**飞书**、**钉钉**、**Telegram**、**邮件**，消息直达手机和邮箱
-
-- **邮件推送**：支持 QQ邮箱、Gmail、Outlook、163邮箱等主流邮箱服务
-- **智能识别**：自动识别邮箱服务商，也可以手动配置 SMTP 服务器
-- **HTML 格式**：精美的 HTML 邮件格式，与网页版效果一致
-
-### **多端适配**
-- **GitHub Pages**：自动生成精美网页报告，PC/移动端适配
-- **Docker部署**：支持多架构容器化运行
-- **数据持久化**：HTML/TXT多格式历史记录保存
-
-### **零技术门槛部署**
-
-GitHub 一键 Fork 即可使用，无需编程基础。
-
-> 30秒部署： GitHub Pages（网页浏览）支持一键保存成图片，随时分享给他人
->
-> 1分钟部署： 企业微信（手机通知）
-
-**💡 提示：** 想要**实时更新**的网页版？fork 后，进入你的仓库 Settings → Pages，启用 GitHub Pages。[效果预览](https://sansan0.github.io/TrendRadar/)。
-
-### **减少 APP 依赖**
-
-从"被算法推荐绑架"变成"主动获取自己想要的信息"
-
-**适合人群：** 投资者、自媒体人、企业公关、关心时事的普通用户
-
-**典型场景：** 股市投资监控、品牌舆情追踪、行业动态关注、生活资讯获取
-
-
-| Github Pages 效果(手机端适配、邮箱推送效果) | 飞书推送效果 |
-|:---:|:---:|
-| ![Github Pages效果](_image/github-pages.png) | ![飞书推送效果](_image/feishu.jpg) |
+**实际效果**：不再错过重要新闻的完整发展过程，从话题萌芽到高峰热议，全程掌握
 
 <details>
 <summary><strong>👉 推送格式说明</strong></summary>
-
-## **通知示例：**
+<br>
 
 📊 热点词汇统计
 
@@ -444,8 +371,87 @@ GitHub 一键 Fork 即可使用，无需编程基础。
 | (N次)         | (3次)                       | 出现频率     | 在监控期间出现的总次数                  |
 | **新增区域**  | 🆕 **本次新增热点新闻**      | 新话题汇总   | 单独展示本轮新出现的热点话题            |
 
+</details>
+
+
+### **个性化热点算法**
+
+不再被各个平台的算法牵着走，TrendRadar 会重新整理全网热搜：
+
+- **看重排名高的新闻**（占60%）：各平台前几名的新闻优先显示
+- **关注持续出现的话题**（占30%）：反复出现的新闻更重要  
+- **考虑排名质量**（占10%）：不仅多次出现，还经常排在前列
+
+**实际效果**：把分散在各个平台的热搜合并起来，按照你关心的热度重新排序
+
+> 这三个比例可以选择适合自己的场景进行调整
+
+<details>
+<summary><strong>👉 热点权重调整</strong></summary>
+<br>
+
+当前默认的配置是平衡性配置
+
+### 两个核心场景
+
+**追实时热点型**：
+```yaml
+weight:
+  rank_weight: 0.8    # 主要看排名
+  frequency_weight: 0.1  # 不太在乎持续性
+  hotness_weight: 0.1
+```
+**适用人群**：自媒体博主、营销人员、想快速了解当下最火话题的用户
+
+**追深度话题型**：
+```yaml
+weight:
+  rank_weight: 0.4    # 适度看排名
+  frequency_weight: 0.5  # 重视当天内的持续热度
+  hotness_weight: 0.1
+```
+**适用人群**：投资者、研究人员、新闻工作者、需要深度分析趋势的用户
+
+### 调整的方法
+1. **三个数字加起来必须等于 1.0**
+2. **哪个重要就调大哪个**：在乎排名就调大 rank_weight，在乎持续性就调大 frequency_weight
+3. **建议每次只调 0.1-0.2**，观察效果
+
+核心思路：追求速度和时效性的用户提高排名权重，追求深度和稳定性的用户提高频次权重。
 
 </details>
+
+### **多渠道实时推送**
+
+支持**企业微信**(+ 微信推送方案)、**飞书**、**钉钉**、**Telegram**、**邮件**，消息直达手机和邮箱
+
+### **多端适配**
+- **GitHub Pages**：自动生成精美网页报告，PC/移动端适配
+- **Docker部署**：支持多架构容器化运行
+- **数据持久化**：HTML/TXT多格式历史记录保存
+
+### **零技术门槛部署**
+
+GitHub 一键 Fork 即可使用，无需编程基础。
+
+> 30秒部署： GitHub Pages（网页浏览）支持一键保存成图片，随时分享给他人
+>
+> 1分钟部署： 企业微信（手机通知）
+
+**💡 提示：** 想要**实时更新**的网页版？fork 后，进入你的仓库 Settings → Pages，启用 GitHub Pages。[效果预览](https://sansan0.github.io/TrendRadar/)。
+
+### **减少 APP 依赖**
+
+从"被算法推荐绑架"变成"主动获取自己想要的信息"
+
+**适合人群：** 投资者、自媒体人、企业公关、关心时事的普通用户
+
+**典型场景：** 股市投资监控、品牌舆情追踪、行业动态关注、生活资讯获取
+
+
+| Github Pages 效果(手机端适配、邮箱推送效果) | 飞书推送效果 |
+|:---:|:---:|
+| ![Github Pages效果](_image/github-pages.png) | ![飞书推送效果](_image/feishu.jpg) |
 
 
 ## 📝 更新日志
@@ -455,7 +461,15 @@ GitHub 一键 Fork 即可使用，无需编程基础。
 - **小版本更新**：从 v2.x 升级到 v2.y, 用本项目的 `main.py` 代码替换你 fork 仓库中的对应文件 
 - **大版本升级**：从 v1.x 升级到 v2.y, 建议删除现有 fork 后重新 fork，这样更省力且避免配置冲突
 
-> 挖坑：下一次**新功能**，大概会是 ai 分析功能(●'◡'●)
+### 2025/09/26 - v2.3.2
+
+- 修正了邮件通知配置检查被遗漏的问题（[#88](https://github.com/sansan0/TrendRadar/issues/88)）
+
+**修复说明**：
+- 解决了即使正确配置邮件通知，系统仍提示"未配置任何webhook"的问题
+
+<details>
+<summary><strong>👉 历史更新</strong></summary>
 
 ### 2025/09/22 - v2.3.1
 
@@ -472,9 +486,6 @@ GitHub 一键 Fork 即可使用，无需编程基础。
 
 **更新提示**：
 - 此次更新的内容比较多，如果想升级，建议采用【大版本升级】
-
-<details>
-<summary><strong>👉 历史更新</strong></summary>
 
 ### 2025/09/17 - v2.2.0
 
@@ -812,28 +823,37 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
     - **推送设置**：在 [config/config.yaml](config/config.yaml) 中配置推送模式和通知选项
     - **关键词设置**：在 [config/frequency_words.txt](config/frequency_words.txt) 中添加你关心的关键词
 
-    **注意**：建议只调整文档中明确说明的配置项，其他选项主要供开发和测试使用。
+    **注意**：建议只调整文档中明确说明的配置项，其他选项主要供作者开发时测试使用
     
 
 
 <details>
 <summary><strong>👉 Docker 部署</strong></summary>
 
-### 🐳 Docker 部署
-
 #### 方式一：快速体验（一行命令）
 
+**Linux/macOS 系统：**
 ```bash
-# 直接运行，使用默认配置（仅体验功能，无推送通知）
-docker run -d --name trend-radar \
-  -v ./config:/app/config:ro \
-  -v ./output:/app/output \
-  -e CRON_SCHEDULE="*/30 * * * *" \
-  -e RUN_MODE="cron" \
-  -e IMMEDIATE_RUN="true" \
-  wantcat/trendradar:latest
+# 创建配置目录并下载配置文件
+mkdir -p config output
+wget https://raw.githubusercontent.com/sansan0/TrendRadar/master/config/config.yaml -P config/
+wget https://raw.githubusercontent.com/sansan0/TrendRadar/master/config/frequency_words.txt -P config/
+```
+或者**手动创建**：
+1. 在当前目录创建 `config` 文件夹
+2. 下载配置文件：
+   - 访问 https://raw.githubusercontent.com/sansan0/TrendRadar/master/config/config.yaml → 右键"另存为" → 保存到 `config\config.yaml`
+   - 访问 https://raw.githubusercontent.com/sansan0/TrendRadar/master/config/frequency_words.txt → 右键"另存为" → 保存到 `config\frequency_words.txt`
 
-# 或者启用手机应用推送通知或邮件通知
+完成后的目录结构应该是：
+```
+当前目录/
+└── config/
+    ├── config.yaml
+    └── frequency_words.txt
+```
+
+```bash
 docker run -d --name trend-radar \
   -v ./config:/app/config:ro \
   -v ./output:/app/output \
@@ -849,30 +869,6 @@ docker run -d --name trend-radar \
   -e RUN_MODE="cron" \
   -e IMMEDIATE_RUN="true" \
   wantcat/trendradar:latest
-```
-
-**注意**：快速体验模式需要先准备配置文件：
-
-**Linux/macOS 系统：**
-```bash
-# 创建配置目录并下载配置文件
-mkdir -p config output
-wget https://raw.githubusercontent.com/sansan0/TrendRadar/master/config/config.yaml -P config/
-wget https://raw.githubusercontent.com/sansan0/TrendRadar/master/config/frequency_words.txt -P config/
-```
-或者**手动创建**：
-1. 在当前目录下创建两个文件夹：`config` 和 `output`
-2. 下载配置文件到对应位置：
-   - 访问 https://raw.githubusercontent.com/sansan0/TrendRadar/master/config/config.yaml → 右键"另存为" → 保存到 `config\config.yaml`
-   - 访问 https://raw.githubusercontent.com/sansan0/TrendRadar/master/config/frequency_words.txt → 右键"另存为" → 保存到 `config\frequency_words.txt`
-
-完成后的目录结构应该是：
-```
-当前目录/
-├── config/
-│   ├── config.yaml
-│   └── frequency_words.txt
-└── output/
 ```
 
 #### 方式二：使用 docker-compose（推荐）
@@ -1015,7 +1011,7 @@ docker exec -it trend-radar ls -la /app/config/
 
 ## ☕问题答疑与1元点赞
 
-> 心意到就行，收到的**点赞**用于提高开发者开源的积极性。你们的**点赞**已记录于最顶部的**致谢名单**
+> 心意到就行，收到的**点赞**用于提高开发者开源的积极性。**点赞**已收录于**致谢名单**
 
 |公众号关注 |微信点赞 | 支付宝点赞 |
 |:---:|:---:|:---:| 
